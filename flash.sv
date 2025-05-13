@@ -2,8 +2,8 @@ module flash(
   input  logic       clk_100mhz,
   input  logic       nrst,
 
-  inout  logic       miso,
-  inout  logic       mosi,
+  input  logic       miso,
+  output logic       mosi,
   output logic       sclk,
   output logic       wpn,
   output logic       rstn,
